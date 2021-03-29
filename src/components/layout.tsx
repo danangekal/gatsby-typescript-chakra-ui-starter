@@ -7,9 +7,9 @@
 import { ReactElement, ReactNode } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+import { Box, Text, Link } from '@chakra-ui/react';
 
 import Header from './header';
-import './layout.css';
 
 interface LayoutProps {
   children: ReactNode;
@@ -27,30 +27,24 @@ function Layout({ children }: LayoutProps): ReactElement {
   `);
 
   return (
-    <>
+    <Box>
       <Header siteTitle={data.site.siteMetadata?.title || 'Title'} />
-      <div
-        style={{
-          margin: '0 auto',
-          maxWidth: 960,
-          padding: '0 1.0875rem 1.45rem',
-        }}
-      >
+      <Box maxW="960px" margin="0 auto" padding="0 1.0875rem 1.45rem">
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: '2rem',
-          }}
-        >
-          ©
-          {' '}
-          {new Date().getFullYear()}
-          , Built with
-          {' '}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
-    </>
+        <Box marginTop="2rem">
+          <Text>
+            ©
+            {' '}
+            {new Date().getFullYear()}
+            , Built with
+            {' '}
+            <Link href="https://www.gatsbyjs.com" color="purple.500" isExternal>
+              Gatsby
+            </Link>
+          </Text>
+        </Box>
+      </Box>
+    </Box>
   );
 }
 

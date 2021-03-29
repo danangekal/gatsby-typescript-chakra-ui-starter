@@ -6,10 +6,20 @@
    <a href="https://www.typescriptlang.org">
     <img alt="Typescript" src="./src/images/typescript-icon.png" width="60" />
   </a>
+  <a href="https://chakra-ui.com">
+    <img alt="Chakra UI" src="./src/images/chakra-ui-icon.png" width="60" />
+  </a>
 </p>
 <h1 align="center">
-  Gatsby's typescript default starter
+  Gatsby's typescript chakra ui starter
 </h1>
+<p align="center">
+  <img src="https://img.shields.io/npm/l/gatsby-typescript-chakra-ui-starter?color=blue" alt="Gatsby is released under the MIT license." />
+  <img src="https://img.shields.io/npm/v/gatsby-typescript-chakra-ui-starter" alt="Current npm package version." />
+  <img src="https://img.shields.io/node/v/gatsby-typescript-chakra-ui-starter" alt="Current node package version." />
+  <img src="https://img.shields.io/npm/dm/gatsby-typescript-chakra-ui-starter" alt="Downloads per month on npm." />
+  <img src="https://img.shields.io/npm/dt/gatsby-typescript-chakra-ui-starter" alt="Total downloads on npm." />
+</p>
 
 This starter is based on [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default). Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
@@ -24,6 +34,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 - [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of prettier.
 - [Husky 5](https://typicode.github.io/husky/#/) - Documentation of husky.
 - [Lint Staged 10](https://github.com/okonet/lint-staged) - Documentation of lint staged.
+- [Chakra UI](https://chakra-ui.com/docs/getting-started) - Documentation of chakra ui.
 - [Gatsby Image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image) - Documentation of gatsby plugins image for optimize image loading sites.
 - [Gatsby Offline](https://www.gatsbyjs.com/plugins/gatsby-plugin-offline) - Documentation of gatsby plugins offline for PWA.
 - [Gatsby Manifest](https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest) - Documentation of gatsby manifest for PWA.
@@ -38,7 +49,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/danangekal/gatsby-typescript-default-starter
+    gatsby new my-default-starter https://github.com/danangekal/gatsby-typescript-chakra-ui-starter
     ```
 
 1.  **Start developing.**
@@ -97,9 +108,9 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 9.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-10.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+10. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-11.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+11. **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
 
 12. **`package-lock.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
@@ -117,15 +128,14 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-
 ## ❤️ Credits
 
 Built with [Gatsby](https://www.gatsbyjs.org/) - the blazing-fast static site generator for [React](https://facebook.github.io/react/).
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danangekal/gatsby-typescript-default-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danangekal/gatsby-typescript-chakra-ui-starter)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/danangekal/gatsby-typescript-default-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/danangekal/gatsby-typescript-chakra-ui-starter)
 
 <!-- AUTO-GENERATED-CONTENT:END -->

@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Typescript Default Starter',
+    title: 'Gatsby Typescript Chakra UI Starter',
     description:
-      'The default gatsby starter with typescript & latest package',
+      'The default gatsby starter with typescript, chakra ui & latest package',
     author: '@danangekal',
   },
   plugins: [
+    '@chakra-ui/gatsby-plugin',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-image',
     {
