@@ -15,7 +15,7 @@
 </h1>
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="Gatsby is released under the MIT license." />
-  <img src="https://img.shields.io/badge/version-v.0.0.1-blue" alt="Current npm package version." />
+  <img src="https://img.shields.io/badge/version-v.1.0.0-blue" alt="Current npm package version." />
   <img src="https://img.shields.io/badge/node-%3E%3D12.13.0-green" alt="Current node package version." />
 </p>
 
